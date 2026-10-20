@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+*.keras
+*.h5
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+Assignment3_Final_Report.docx
