@@ -1,8 +1,3 @@
-"""Assignment 3: four MNIST classification experiments tracked remotely on DagsHub.
-
-Requires a DagsHub account and matching repository; see README.md.
-All reported metrics are calculated by actual Keras training, never hard-coded.
-"""
 from __future__ import annotations
 
 import argparse
@@ -19,7 +14,6 @@ OUTPUT = ROOT / "outputs"
 SEED = 42
 EXPERIMENT_NAME = "MNIST_Deep_Learning_Assignment_3"
 
-# Baseline configuration exactly matches the assignment (50 epochs, Adam, 128, 64).
 CONFIGS = [
     dict(key="baseline", name="baseline_1x128_adam_bs64_ep50", hidden=[128], optimizer="Adam", batch_size=64, epochs=50),
     dict(key="wider", name="wider_1x256_adam_bs64_ep30", hidden=[256], optimizer="Adam", batch_size=64, epochs=30),
