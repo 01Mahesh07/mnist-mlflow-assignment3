@@ -1,8 +1,3 @@
-"""Fill the Word template with actual local experiment results and DagsHub screenshots.
-
-Run: python build_report.py
-This script intentionally leaves missing evidence marked; it does not invent results.
-"""
 from __future__ import annotations
 import csv
 import os
