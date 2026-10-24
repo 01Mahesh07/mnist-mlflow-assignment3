@@ -1,9 +1,5 @@
 # Assignment 3 — MNIST deep learning with MLflow and DagsHub
 
-**Deliverables:** `train_mnist_mlflow.py` (submit as Python code on DC Connect), `Assignment3_Final_Report.docx` (generated after you run the real experiments), and your real GitHub/DagsHub project URLs and screenshots.
-
-> **Important:** No training, DagsHub authentication, or remote GitHub push was performed to make this starter package. The DOCX template contains complete Parts A and B, and marked evidence slots for Part C. Run the code in your own account to produce authentic metrics and screenshots.
-
 ## 1. Create or connect the repositories
 
 1. Sign in to https://github.com and create a repository named `mnist-mlflow-assignment3` (or another name you choose).
@@ -104,15 +100,6 @@ git push -u origin main
 ```
 
 GitHub might request browser authorization or a personal access token through a credential helper. Do not paste tokens into chat or commit secrets.
-
-## 7. DC Connect submission checklist
-
-- [ ] Post `train_mnist_mlflow.py` as the Python code submission (and optionally `build_report.py` if the instructor allows multiple files).
-- [ ] Upload the **generated** `Assignment3_Final_Report.docx` with Parts A/B, Part C comparison and genuine screenshots.
-- [ ] In the report include verified GitHub URL, DagsHub URL and MLflow Tracking URI.
-- [ ] Verify 4 real final runs (baseline + 3), not just smoke tests.
-- [ ] Ensure metrics and images match the real MLflow run IDs.
-- [ ] Submit before **October 23, 2026 at 11:59 PM**.
 
 ## Documentation used
 
